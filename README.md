@@ -7,14 +7,14 @@ Storybook Addon Matomo can be used to support [Matomo Analytics](https://matomo.
 Install:
 
 ```sh
-yarn add storybook-matomo
+yarn add storybook-addon-matomo
 ```
 
 within `.storybook/main.js`:
 
 ```js
 module.exports = {
-  addons: ['storybook-matomo']
+  addons: ['storybook-addon-matomo']
 }
 ```
 

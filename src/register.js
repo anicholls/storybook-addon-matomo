@@ -2,7 +2,7 @@ import { addons } from "@storybook/addons";
 import Events from "@storybook/core-events";
 import MatomoTracker from "@datapunt/matomo-tracker-js";
 
-addons.register("storybook-matomo", (api) => {
+addons.register("storybook-addon-matomo", (api) => {
   let tracker;
 
   try {

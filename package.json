@@ -1,5 +1,5 @@
 {
-  "name": "storybook-matomo",
+  "name": "storybook-addon-matomo",
   "version": "1.0.0",
   "description": "Storybook addon for Matomo Analytics",
   "author": "Alex Nicholls (https://github.com/anicholls)",
@@ -9,19 +9,23 @@
     "storybook",
     "matomo"
   ],
+  "storybook": {
+    "displayName": "Matomo",
+    "icon": "https://static.matomo.org/wp-content/uploads/2018/11/DefaultIcon.png"
+  },
   "main": "dist/preset.js",
   "files": [
     "dist/**/*",
     "README.md",
     "*.js"
   ],
-  "homepage": "https://github.com/anicholls/storybook-matomo",
+  "homepage": "https://github.com/anicholls/storybook-addon-matomo",
   "bugs": {
-    "url": "https://github.com/anicholls/storybook-matomo/issues"
+    "url": "https://github.com/anicholls/storybook-addon-matomo/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anicholls/storybook-matomo.git"
+    "url": "https://github.com/anicholls/storybook-addon-matomo.git"
   },
   "dependencies": {
     "@datapunt/matomo-tracker-js": "^0.4.0",
