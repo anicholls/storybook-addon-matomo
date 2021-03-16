@@ -44,7 +44,7 @@ window.STORYBOOK_MATOMO_OPTIONS = {
 
 Note: This integration is based on [`@datapunt/matomo-tracker-js`](https://www.npmjs.com/package/@datapunt/matomo-tracker-js), so all configuration options are available.
 
-If you would like to store your `urlBase`, `siteId`, etc. in an [environment variable](https://storybook.js.org/docs/react/configure/environment-variables) so it is not available in your repo, simply add `.env` file to the root of your project and reference that in `manager.js`
+If you would like to store your `urlBase`, `siteId`, etc. in an [environment variable](https://storybook.js.org/docs/react/configure/environment-variables) so it is not available in your repo, simply add `.env` file to the root of your project or set environment variables in your CI and reference that in `manager.js`
 
 `.env`:
 ```
