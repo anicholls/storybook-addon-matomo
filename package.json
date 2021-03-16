@@ -1,0 +1,47 @@
+{
+  "name": "storybook-matomo",
+  "version": "1.0.0",
+  "description": "Storybook addon for Matomo Analytics",
+  "author": "Alex Nicholls (https://github.com/anicholls)",
+  "license": "MIT",
+  "keywords": [
+    "addon",
+    "storybook",
+    "matomo"
+  ],
+  "main": "dist/preset.js",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js"
+  ],
+  "homepage": "https://github.com/anicholls/storybook-matomo",
+  "bugs": {
+    "url": "https://github.com/anicholls/storybook-matomo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anicholls/storybook-matomo.git"
+  },
+  "dependencies": {
+    "@datapunt/matomo-tracker-js": "^0.4.0",
+    "@storybook/addons": "6.1.3",
+    "@storybook/core-events": "6.1.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@storybook/addon-actions": "^6.1.21",
+    "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/addon-links": "^6.1.21",
+    "@storybook/react": "^6.1.21",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.2.2"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build": "babel ./src --out-dir ./dist"
+  }
+}
