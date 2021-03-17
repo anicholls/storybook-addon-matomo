@@ -1,5 +1,3 @@
-function managerEntries(entry = []) {
+export function managerEntries(entry = []) {
   return [...entry, require.resolve("./register")];
 }
-
-module.exports = { managerEntries };
