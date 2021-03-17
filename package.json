@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-matomo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Storybook addon for Matomo Analytics",
   "author": "Alex Nicholls (https://github.com/anicholls)",
   "license": "MIT",
