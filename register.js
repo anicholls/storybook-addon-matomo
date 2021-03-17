@@ -1,1 +1,1 @@
-require("./dist/preset.js");
+require("./dist/register.js");
